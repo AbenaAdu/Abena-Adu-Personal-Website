@@ -1,4 +1,9 @@
 function myFunction() {
-    document.getElementById("Title").innerhtml = "Hello!";
-    document.getElementById("Title").style.color = "red";
+   const element = document.getElementById("Title");
+   if (element.innerHTML === "Akwaaba!") {
+    element.innerHTML = "Hello!";
+   }
+   else {
+   element.innerHTML = "Akwaaba!";
+}
 }
