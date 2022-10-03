@@ -1,4 +1,32 @@
 body {
-    text-align: center;
-    color: red
+    background-image: url("./Images/image6.png");
   }
+header h1 {
+    margin-left: 17%;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+.caption {
+    margin-left: 12%;
+}
+
+.Picture #PersonalImage {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 15%;
+  }
+.AboutMe {
+    width: 500px;
+    text-align: center;
+    width: 50%;
+}
+.ContactMe {
+    float: left;
+    font-size: large;
+    text-align: center;
+    width: 50%;
+}
